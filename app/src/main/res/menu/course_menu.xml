@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:title="1st Semester"/>
-<item android:title="2nd Semester"/>
-<item android:title="3rd Semester"/>
-<item android:title="4th Semester"/>
-<item android:title="5th Semester"/>
-<item android:title="6th Semester"/>
-<item android:title="7th Semester"/>
-<item android:title="8th Semester"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:icon="@drawable/hamburger"
+    android:title="Menu"
+    app:showAsAction="always">
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:title="1st Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="2nd Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="3rd Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="4th Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="5th Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="6th Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="7th Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+        <item android:title="8th Semester" android:icon="@drawable/arrow_circle_right" app:showAsAction="never"/>
+
+    </menu>
+
+</item>
 </menu>

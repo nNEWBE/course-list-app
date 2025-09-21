@@ -4,4 +4,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#068251</color>
     <color name="secondary">#85c485</color>
+    
+    <!-- Colors for course items -->
+    <color name="orange">#FFA500</color>
+    <color name="pink">#FF69B4</color>
+    <color name="green">#4CAF50</color>
+    <color name="purple">#9C27B0</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="blue">#2196F3</color>
 </resources>

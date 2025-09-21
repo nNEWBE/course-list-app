@@ -26,7 +26,7 @@
         android:id="@+id/side_icon_1"
         android:layout_width="52dp"
         android:layout_height="59dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="148dp"
         android:src="@drawable/side_icon_1"
         app:layout_constraintEnd_toStartOf="@+id/main_image"
         app:layout_constraintHorizontal_bias="1.0"
@@ -48,7 +48,7 @@
         android:id="@+id/side_icon_2"
         android:layout_width="52dp"
         android:layout_height="59dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="148dp"
         android:src="@drawable/side_icon_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -59,7 +59,7 @@
         android:id="@+id/side_icon_4"
         android:layout_width="52dp"
         android:layout_height="59dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="292dp"
         android:src="@drawable/side_icon_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -68,10 +68,10 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/main_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/girl"
+        android:src="@drawable/student"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_wave_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.6"
@@ -132,4 +132,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_description"
         app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright 2025@Shuvo All Rights Reserved"
+        android:fontFamily="@font/agbalumo"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
