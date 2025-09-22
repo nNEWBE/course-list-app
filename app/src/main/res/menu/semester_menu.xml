@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/hamburger"
+        android:title="Menu"
+        app:showAsAction="always">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <item
+                android:id="@+id/action_semester_1"
+                android:title="1st Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_2"
+                android:title="2nd Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_3"
+                android:title="3rd Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_4"
+                android:title="4th Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_5"
+                android:title="5th Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_6"
+                android:title="6th Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_7"
+                android:title="7th Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_semester_8"
+                android:title="8th Semester"
+                android:icon="@drawable/arrow_circle_right"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+</menu>

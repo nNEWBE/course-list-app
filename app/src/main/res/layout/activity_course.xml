@@ -15,26 +15,45 @@
         app:title="Course List"
         android:background="@color/primary"
         app:titleTextColor="@android:color/white"
-        app:menu="@menu/course_menu"
+        app:menu="@menu/semester_menu"
         android:elevation="4dp"/>
     
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/semester_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1st Semester Courses"
+        android:text="1st Semester"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:textSize="20sp"
         android:layout_gravity="center"
         android:fontFamily="@font/agbalumo"/>
 
-    <ListView
-        android:id="@+id/courseListView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@null"
-        android:dividerHeight="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/courseListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:padding="8dp"
+            android:clipToPadding="false"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bottomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2025 1st Semester - CSE Department"
+        android:gravity="center"
         android:padding="8dp"
-        android:clipToPadding="false"/>
+        android:fontFamily="@font/agbalumo"
+        android:textColor="@color/black"
+        android:background="#EEEEEE"/>
 
 </LinearLayout>
